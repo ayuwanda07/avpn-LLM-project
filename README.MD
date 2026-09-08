@@ -27,5 +27,5 @@ Aplikasi ini memiliki dua mode utama yang dapat dipilih melalui *sidebar*:
 
 1. **Clone repositori ini:**
    ```bash
-   git clone [https://github.com/username-kamu/scholarprep-ai.git](https://github.com/username-kamu/scholarprep-ai.git)
-   cd scholarprep-ai
+   git clone [https://github.com/ayuwanda07/avpn-LLM-project.git](https://github.com/ayuwanda07/avpn-LLM-project.git)
+   cd avpn-LLM-project
