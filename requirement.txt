@@ -1,0 +1,12 @@
+install lastest Miniconda
+bash : curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe --output .\Miniconda3-latest-Windows-x86_64.exe
+cd name-folder
+conda create -- avpn-project python=3.13
+conda activate avpn-project
+
+--> Command For install library pyhton
+pip install streamlit pandas pillow
+pip install google-genai
+pip install langchain langchain-community langgraph
+pip install langchain-google-genai langchain-groq
+pip install pypdf
