@@ -4,7 +4,7 @@ cd name-folder
 conda create -- avpn-project python=3.13
 conda activate avpn-project
 
---> Command For install library pyhton
+--> Command For install python library
 pip install streamlit pandas pillow
 pip install google-genai
 pip install langchain langchain-community langgraph

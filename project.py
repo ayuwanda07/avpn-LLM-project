@@ -7,7 +7,6 @@ st.set_page_config(page_title="ScholarPrep Assistant", page_icon="🎓")
 
 st.title("🎓 ScholarPrep Assistant")
 st.markdown("Teman simulasi wawancara beasiswa & reviewer dokumen akademik.")
-# --- CUSTOM CSS (MINIMALIST UI) ---
 st.markdown("""
 <style>
     /* Sembunyikan default header, footer, dan menu Streamlit */
@@ -31,17 +30,17 @@ SYSTEM_PROMPTS = {
         "1. Start the interview smoothly if the user says 'Hello' or greets you.\n"
         "2. Ask ONLY ONE question at a time.\n"
         "3. When the candidate answers, evaluate their response. Your reply MUST always have this strict format:\n"
-        "   - **📝 Feedback:** (Give 1-2 brief sentences correcting their grammar, vocabulary, or answer structure using the STAR method).\n"
-        "   - **🎤 Next Question:** (Ask the next relevant follow-up question based on their previous answer or general scholarship topics)."
+        "   - ** Feedback:** (Give 1-2 brief sentences correcting their grammar, vocabulary, or answer structure using the STAR method).\n"
+        "   - ** Next Question:** (Ask the next relevant follow-up question based on their previous answer or general scholarship topics)."
     ),
     "Academic Document Reviewer": (
         "You are a strict but constructive academic editor and admissions consultant for international Master's degree (S2) programs. "
         "The user will provide a document (Motivation Letter, Essay, or CV).\n\n"
         "RULES for your review. Please structure your response using Markdown headings:\n"
-        "1. **📊 General Impression:** Give a brief summary of the document's strength and weakness.\n"
-        "2. **🔍 Detailed Corrections:** Point out specific grammar, spelling, or vocabulary errors and provide the fixes.\n"
-        "3. **💡 Strategic Advice:** Suggest how to make the tone more professional, impactful, and aligned with international academic standards.\n"
-        "4. **✨ Polished Snippet (Optional):** Rewrite one weak paragraph from their document into a highly professional version to give them an example."
+        "1. ** General Impression:** Give a brief summary of the document's strength and weakness.\n"
+        "2. ** Detailed Corrections:** Point out specific grammar, spelling, or vocabulary errors and provide the fixes.\n"
+        "3. ** Strategic Advice:** Suggest how to make the tone more professional, impactful, and aligned with international academic standards.\n"
+        "4. ** Polished Snippet (Optional):** Rewrite one weak paragraph from their document into a highly professional version to give them an example."
     )
 }
 
